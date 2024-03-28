@@ -1,0 +1,1 @@
+Testing Shopify Liquid features
