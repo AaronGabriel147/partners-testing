@@ -41,10 +41,32 @@
             "products_to_show": 4,
             "image_shape": "default"
           }
+        },
+        "collection_block_WAmUXN": {
+          "type": "collection_block",
+          "settings": {
+            "block_title": "Squid Mods",
+            "block_description": "",
+            "collection": "squid",
+            "products_to_show": 4,
+            "image_shape": "default"
+          }
+        },
+        "collection_block_MrhDic": {
+          "type": "collection_block",
+          "settings": {
+            "block_title": "BRS Mods",
+            "block_description": "",
+            "collection": "brs-mods",
+            "products_to_show": 4,
+            "image_shape": "default"
+          }
         }
       },
       "block_order": [
-        "collection_block_PTGi7e"
+        "collection_block_PTGi7e",
+        "collection_block_WAmUXN",
+        "collection_block_MrhDic"
       ],
       "settings": {
       }
