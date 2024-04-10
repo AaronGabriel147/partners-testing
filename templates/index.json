@@ -36,7 +36,7 @@
           "settings": {
             "block_title": "MachineWise Mods",
             "block_description": "",
-            "collection": "automated-collection",
+            "collection": "brs-mods",
             "products_to_show": 4,
             "image_shape": "default"
           }
