@@ -4,7 +4,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Ryworx Mods",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -38,7 +38,13 @@
             "block_description": "",
             "collection": "brs-mods",
             "products_to_show": 4,
-            "image_shape": "default"
+            "image_shape": "default",
+            "columns_desktop": 4,
+            "columns_mobile": 2,
+            "show_mobile_slider": true,
+            "show_desktop_slider": false,
+            "full_width": false,
+            "image_ratio": "square"
           }
         },
         "collection_block_WAmUXN": {
@@ -48,7 +54,13 @@
             "block_description": "",
             "collection": "squid",
             "products_to_show": 4,
-            "image_shape": "default"
+            "image_shape": "default",
+            "columns_desktop": 4,
+            "columns_mobile": 2,
+            "show_mobile_slider": true,
+            "show_desktop_slider": false,
+            "full_width": false,
+            "image_ratio": "square"
           }
         },
         "collection_block_MrhDic": {
@@ -58,7 +70,13 @@
             "block_description": "",
             "collection": "brs-mods",
             "products_to_show": 4,
-            "image_shape": "default"
+            "image_shape": "default",
+            "columns_desktop": 4,
+            "columns_mobile": 2,
+            "show_mobile_slider": true,
+            "show_desktop_slider": false,
+            "full_width": false,
+            "image_ratio": "square"
           }
         }
       },
@@ -68,6 +86,11 @@
         "collection_block_MrhDic"
       ],
       "settings": {
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "animations_reveal_on_scroll": false
       }
     }
   },
