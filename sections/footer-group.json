@@ -12,10 +12,26 @@
             "image_width": 285,
             "alignment": "center"
           }
+        },
+        "link_list_iJbppe": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "text_dKTrQy": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": ""
+          }
         }
       },
       "block_order": [
-        "image_7KyXQH"
+        "image_7KyXQH",
+        "link_list_iJbppe",
+        "text_dKTrQy"
       ],
       "settings": {
         "color_scheme": "scheme-4",
