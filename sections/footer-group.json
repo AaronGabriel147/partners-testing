@@ -10,7 +10,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/logoss.png",
             "image_width": 285,
-            "alignment": "center"
+            "alignment": ""
           }
         },
         "link_list_iJbppe": {
@@ -20,18 +20,19 @@
             "menu": "footer"
           }
         },
-        "text_dKTrQy": {
-          "type": "text",
+        "image_MCYFci": {
+          "type": "image",
           "settings": {
-            "heading": "",
-            "subtext": ""
+            "image": "shopify:\/\/shop_images\/ppv.png",
+            "image_width": 190,
+            "alignment": "right"
           }
         }
       },
       "block_order": [
         "image_7KyXQH",
         "link_list_iJbppe",
-        "text_dKTrQy"
+        "image_MCYFci"
       ],
       "custom_css": [
 
