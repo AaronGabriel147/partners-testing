@@ -25,7 +25,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/newPPv.png",
-            "image_link": "www.apple.com",
+            "image_link": "https:\/\/www.google.com\/",
             "image_width": 190,
             "alignment": "right"
           }
