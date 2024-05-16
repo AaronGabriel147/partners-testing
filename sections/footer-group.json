@@ -9,7 +9,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/logoss.png",
-            "image_link": "www.google.com",
+            "image_link": "https:\/\/partners-testing-site.myshopify.com\/pages\/contact",
             "image_width": 285,
             "alignment": ""
           }
