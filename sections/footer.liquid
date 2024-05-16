@@ -135,7 +135,8 @@
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                       {%- if block.settings.image != blank -%}
                         {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-                        <div
+                        <a
+                          href="{{ block.settings.image_link }}"
                           class="footer-block__image-wrapper"
                           style="max-width: min(100%, {{ block.settings.image_width }}px);"
                         >
@@ -147,7 +148,7 @@
                             width="{{ block.settings.image.width }}"
                             height="{{ block.settings.image.height }}"
                           >
-                        </div>
+                        </a>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
@@ -445,6 +446,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+       {
+        "type": "text",
+        "id": "image_link",
+        "label": "Image Link"
         },
         {
           "type": "range",
