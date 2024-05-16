@@ -9,6 +9,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/logoss.png",
+            "image_link": "www.google.com",
             "image_width": 285,
             "alignment": ""
           }
@@ -24,6 +25,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/newPPv.png",
+            "image_link": "",
             "image_width": 190,
             "alignment": "right"
           }
