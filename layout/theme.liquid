@@ -358,8 +358,8 @@
 
 
 
-    <script>
-  fetch('https://script.google.com/macros/s/AKfycbx0G2lD2vz02chfJy2TFhDv2DfQL01NzWwfxsJWwB4uUhIq5wwsqm3dTqmmdxzc2SEfbw/exec', {
+<script>
+  fetch('https://us-central1-fabled-decker-427116-c8.cloudfunctions.net/function-1', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -368,11 +368,12 @@
   })
   .then(response => response.json())
   .then(data => {
-    console.log('Response from Google Apps Script:', data);
+    console.log('Response from Google Cloud Function:', data);
   })
   .catch(error => {
     console.error('Error:', error);
   });
 </script>
+
   </body>
 </html>
