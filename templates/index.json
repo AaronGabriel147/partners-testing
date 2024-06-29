@@ -15,7 +15,7 @@
         "heading_BdVRQX": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Image with text{{ localization.market.metafields.custom.textmetafieldconnectedtometaobject.value.text.value }}",
             "heading_size": "h1"
           }
         },
